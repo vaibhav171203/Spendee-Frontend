@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Expense Management System using MERN Stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Vercel Link: https://spendee-frontend.vercel.app/
 
-## Available Scripts
+## Project Description:
 
-In the project directory, you can run:
+    The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
 
-### `npm start`
+## Objectives:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    1. Simplify expense tracking for individuals and organizations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    2. Provide detailed insights into spending patterns to enable better financial management.
 
-### `npm test`
+    3. Offer a platform for users to create, update, and delete expenses and categories.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    4. Generate comprehensive reports based on user-defined time periods and categories.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- User Authentication and Authorization:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Allow users to sign up and log in to their personal accounts using secure authentication mechanisms.
+Implement role-based access control for administrative tasks.
 
-### `npm run eject`
+- Expense and Category Management:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Enable users to create, update, and delete expense entries and categories.
+Track expenses by date, category, and description.
+Support attaching receipts or other relevant documents to expense entries.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Dashboard and Reporting:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Provide a visual dashboard displaying an overview of the user's expenses, including total expenses, expenses by category, and recent transactions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Generate reports based on selected date ranges and categories, displaying pie charts and bar graphs to help users understand their spending patterns.
+    
 
-## Learn More
+- Responsive User Interface:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Design a clean, responsive user interface that works seamlessly across desktop, tablet, and mobile devices.
+    
+    Utilize React.js for building reusable UI components and managing state effectively.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Technical Architecture:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Frontend:
 
-### Analyzing the Bundle Size
+    Utilize React.js for building the user interface, tsparticle library for awesome background effect and used other libraries like unique-names-generator, react-datepicker, moment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Implement responsive design using CSS frameworks like Bootstrap and Material-Icons.
 
-### Making a Progressive Web App
+- Backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Use Node.js and Express.js to build a RESTful API for handling client requests and serving as the application's backend.
 
-### Advanced Configuration
+    Implement authentication and authorization using JSON Web Tokens (JWT) and middleware to protect endpoints.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Database:
 
-### Deployment
+    Store all data, including user information, expense entries, and categories, in MongoDB, a NoSQL database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Implement Mongoose ORM for schema definition and validation.
 
-### `npm run build` fails to minify
+- Deployment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Deploy the application to a cloud provider like AWS and render.
+    frontend has  been deployed on Vercel and backend on Render.
